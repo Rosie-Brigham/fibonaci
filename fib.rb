@@ -6,17 +6,14 @@
 @fibonnaci_array = [0,1]
 
 def select
+  500.times do
   next_number = (@fibonnaci_array[-1] + (@fibonnaci_array[-2]))
   @fibonnaci_array << next_number
-  looping
-end
-
-def looping
-  if @fibonnaci_array.length < 500
-    select
-  else
-    puts @fibonnaci_array
   end
+  puts @fibonnaci_array
 end
 
 select
+
+# one line
+fib=[0,1];500.times{fib<<(fib[-1]+fib[-2])};puts fib  
