@@ -9,7 +9,8 @@
 
 require 'prime'
 
-This code works, but it takes a while to process, and can probably be reduced
+# This code works, but it takes a while to process, and can probably be reduced
+  
   prime_array = []
   i = 1
 
